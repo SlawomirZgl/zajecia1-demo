@@ -8,10 +8,10 @@ public class Student {
         this.grupa = grupa;
     }
 
-    final long id;
-    final String name;
-    final String number;
-    final String grupa;
+    public final long id;
+    public final String name;
+    public final String number;
+    public final String grupa;
 
 
 }
