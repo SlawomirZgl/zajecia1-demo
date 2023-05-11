@@ -5,13 +5,13 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 
 public class NewStudent {
-    final String name;
+    final String Name;
     final String number;
     final String grupa;
     @JsonCreator
     public NewStudent(@JsonProperty("name") String name,
                       @JsonProperty("number") String number, @JsonProperty("grupa") String grupa) {
-        this.name = name;
+        this.Name = name;
         this.number = number;
         this.grupa = grupa;
     }
